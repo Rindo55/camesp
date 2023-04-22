@@ -129,7 +129,7 @@ async def start_uploading(data):
 
         duration = get_duration(file)
         filed = os.path.basename(file)
-        filed = filed.replace("[1080p][ESP-ENG][mkv]", "[1080p Web-DL].mkv")
+        filed = filed.replace("[1080p][ESP-ENG][mkv]", "[1080p Web-DL]")
         filed = filed.replace("[CameEsp]", "")
         filed = filed.replace("03v2", "03")
         fpath = "downloads/" + filed
